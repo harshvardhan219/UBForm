@@ -25,7 +25,7 @@ SECRET_KEY = '@vh-sfqfmoprjpvwa_159!dqg&4x0%_unbn=8(@bqja+6affi$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1:8000','formccl.herokuapp.com']
 
 
 # Application definition
