@@ -20,5 +20,4 @@ class Contact(models.Model):
     university = models.CharField(max_length=100)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='')
 
-    def __str__(self):
-        return f'{self.first_name} {self.last_name}'
+
